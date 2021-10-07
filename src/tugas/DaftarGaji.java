@@ -22,7 +22,7 @@ public class DaftarGaji {
         int index = 0;
         for (Pegawai pegawai : this.listPegawai) {
             if (index < idx) {
-                System.out.println("Nip     : " + pegawai.nip);
+                System.out.println("Nip     : " + pegawai.getNip());
                 System.out.println("Nama    : " + pegawai.getNama());
                 System.out.println("Alamat  : " + pegawai.getAlamat());
                 System.out.println("Gaji    : " + pegawai.getGaji());

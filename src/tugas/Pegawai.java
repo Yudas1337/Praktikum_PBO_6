@@ -14,7 +14,11 @@ public class Pegawai {
         this.gaji = gaji;
     }
 
-    public String getAlamat(){
+    public String getNip() {
+        return this.nip;
+    }
+
+    public String getAlamat() {
         return this.alamat;
     }
 
